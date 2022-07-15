@@ -1,0 +1,28 @@
+﻿
+
+
+.form{
+    height: 600px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.form1{
+    height:98%;
+    max-height: 98%;
+    float: left;
+    max-width: 45%;
+    min-width: 45%;
+    padding: 10px;
+}
+
+.form2{
+    height:98%;
+    max-height: 98%;
+    float: right;
+    width: 45%;
+    max-width: 45%;
+    padding: 10px;
+    background-color: aliceblue;
+    font-family:sans-serif;
+}

@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Week 3 JavaScript Assignment</title>
+    <link rel="stylesheet" a href="week3a2css.css" />
+</head>
+
+
+
+
+
+<body>
+    
+    <script>
+
+        function getdata()
+        {
+            
+            const getname = document.getElementById("fname");
+            const getemail = document.getElementById("email");
+            const getdob = document.getElementById("dob");
+            const getint = document.getElementById("int");
+            window.open('Name'+getname +'&email' + getemail, "");
+
+
+
+        }
+
+    </script>
+
+
+
+
+    <br>
+    <hr>
+    <h3>Fill your Interests</h3>
+    <p>Lorem Ipsum, adi bilinmeyen bir hurufat numune kitab.</p>
+    <div class="form">
+        <div class="form1">
+            <div><label for="fname">Name</label></div>
+            <div><input type="text" id="fname" name="firstname" placeholder="Enter Your First Name"></div>
+            <div><label for="email">Email</label></div>
+            <div><input type="text" id="email" name="email" placeholder="abc@gmail.com"></div>
+            <div><label for="dob">Date Of Birth</label></div>
+            <div><input type="date" id="dob"></div>
+            <div><label for="interest">Interest</label></div>
+            <div>
+                <select name="interest" id="int">
+                    <option value="select">Select Interest</option>
+                    <option value="Cooking">Cooking</option>
+                    <option value="Sports">Sports</option>
+                    <option value="News">News</option>
+                    <option value="Gaming">Gaming</option>
+                </select>
+
+            </div>
+
+            <input type="radio" name="individual" id="individual">
+            <label for="radio">Individual</label>
+
+            <input type="radio" name="organization" id="organization">
+            <label for="radio">Organization</label>
+            <br><br>
+
+            <div><label for="aboutinfo">About You</label></div>
+            <div><textarea name="aboutinfo" id="aboutinfo" cols="20" rows="7" placeholder=""></textarea></div>
+            <button class=submit-button type="submit" onclick="getdata()">Submit</button>
+        </div>
+
+
+
+
+</body>
+</html>
