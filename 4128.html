@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AssignmentNo1</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="./4128.css"
+          media="screen" />
+    <script src="4128js.js"></script>
+</head>
+<body class="body">
+    
+  
+    <!-- Fill your intersts -->
+    <div class="Table flex ">
+
+        <div>
+            <h3>Fill Your interests</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <form action="" method="">
+                <div class="form">
+                    <label for="name">Name</label>
+                    <input type="text" name="Name" id="name" required />
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="Email" id="email" required />
+                </div>
+                <div>
+                    <label for="date">DOB</label>
+                    <input type="date" name="DOB" id="date" />
+                </div>
+                <div>
+                    <div>
+                        <label for="Interest">Select your interest:</label><br>
+                        <select name="Interests" id="Interest">
+                            <option disabled selected value> -- select an option -- </option>
+                            <option label="Green" value="Green"></option>
+                            <option label="Red" value="Red"></option>
+                            <option label="White" value="White"></option>
+                            <option label="Black" value="Black"></option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="about-you-margin">
+                        <label for="Individual">Individual</label>
+                        <input type="checkbox" name="Individual" id="Individual" />
+                        <label for="Organization">Organization</label>
+                        <input type="checkbox" name="Organization" id="Organization" />
+                    </div>
+                </div>
+
+                <div class="about-you-margin">
+                    <label for="bio">About You</label>
+                    <textarea id="bio" name="bio"></textarea>
+                </div>
+
+                <button type="submit" id="btnS">Send Details</button>
+
+                <button type="button" id="btnValidate" onClick="return validatForm()">Validate Input</button>
+            </form>
+        </div>
+        <</div>
+        
+</body>
+</html>
